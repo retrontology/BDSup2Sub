@@ -14,15 +14,9 @@
         <maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
         <timestamp>${maven.build.timestamp}</timestamp>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
     </properties>
-
-
-    <repositories>
-        <repository>
-            <id>macify</id>
-            <url>http://simplericity.org/repository/</url>
-        </repository>
-    </repositories>
 
     <dependencies>
         <dependency>
@@ -44,7 +38,7 @@
         <dependency>
             <groupId>org.simplericity.macify</groupId>
             <artifactId>macify</artifactId>
-            <version>1.4</version>
+            <version>1.6</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
